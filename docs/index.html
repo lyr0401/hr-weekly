@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>滴滴 HR 资讯 · 初始化中</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:system-ui,sans-serif;background:#F7F5F0;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:100vh;color:#1A1816}
+.card{background:#fff;border:.5px solid #E2DDD6;border-radius:16px;padding:2.5rem 2rem;text-align:center;max-width:360px;width:90%}
+.logo{width:44px;height:44px;background:#FF5F00;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:500;color:#fff;margin:0 auto 1.25rem}
+h2{font-size:16px;font-weight:500;margin-bottom:.5rem}
+p{font-size:13px;color:#6B6560;line-height:1.7}
+.dots{display:flex;justify-content:center;gap:6px;margin:1.25rem 0}
+.dot{width:8px;height:8px;border-radius:50%;background:#FF5F00;animation:pulse 1.2s infinite}
+.dot:nth-child(2){animation-delay:.2s}
+.dot:nth-child(3){animation-delay:.4s}
+@keyframes pulse{0%,100%{opacity:.2}50%{opacity:1}}
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="logo">HR</div>
+  <h2>滴滴 HR 资讯正在初始化</h2>
+  <div class="dots"><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>
+  <p>首次内容将在 GitHub Actions 完成后自动生成<br>通常需要 3–5 分钟</p>
+</div>
+</body>
+</html>
