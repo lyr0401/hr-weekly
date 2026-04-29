@@ -1,9 +1,9 @@
 name: 生成滴滴HR资讯
 
 on:
-  schedule:
+  # schedule:
     # 北京时间 08:00 / 14:00 / 21:00（UTC 00:00 / 06:00 / 13:00）
-    - cron: '0 0,6,13 * * *'
+    # - cron: '0 0,6,13 * * *'
   workflow_dispatch:  # 允许手动触发
 
 jobs:
